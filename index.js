@@ -56,3 +56,104 @@
 // const newNumbers = [...numbers, 4];
 // console.log(newNumbers); // [1, 2, 3, 4]
 
+
+// 1. Create an object for a book (title, author, price)
+// let book = {
+//     title : "physics",
+//     author : "mohaimin",
+//     price : 69
+// }
+// console.log(book);
+
+// 2. Access properties using both dot and bracket
+// let book = {
+//     title : "physics",
+//     author : "mohaimin",
+//     price : 69
+// }
+// console.log(book.author)
+// console.log(book.title)
+
+// console.log(book["author"])
+// console.log(book["title"])
+
+// 3. Write a nested object (user with address and location)
+// let detail = {
+//     name : "ali",
+//     age : 28,
+//     class : 5,
+//     address : [
+//         {
+//           zipcode : 25000
+//         }
+//     ]
+// }
+
+// console.log(detail);
+// console.log(detail.name);
+// console.log(detail.address[0].zipcode)
+
+// 4. Destructure name and age from a student object
+//    let student = {
+//     name : "ali",
+//     age : 23,
+//     city : "peshawar",
+//     country : "pakistan"
+//    }
+//    const {name , age } = student;
+//    console.log(name, age);
+
+// 5. Loop through keys and values of an object
+//    let marks = {
+//     physics : 45,
+//     chem : 67,
+//     math : 56,
+//     Bio : 78,
+//     urdu : 76
+//    }
+//    for(let i in marks){
+//     marks[i]+=5
+//    }
+
+//    console.log(marks)
+
+// 6. Convert object to array using Object.entries()
+    //  const obj = {
+    //     name : "shayan",
+    //     age : 45,
+    //     city : "pesawar"
+    //  }
+    //  const  elements = Object.entries(obj);
+    //  console.log(elements)
+
+// 7. Copy an object using spread operator
+    // let a = {
+    //     eng : 56,
+    //     urdu : 57,
+    //     bio : 78,
+    //     chem : 87
+    // }
+
+    // let b = {
+    //     ...a, 
+    //     isl : 45,
+    //     pak : 56 }
+    // console.log(b)
+
+// 8. Create a deep copy of an object with nested structure
+//    ?????
+
+// 9. Use optional chaining to safely access deep values
+// ???
+
+//   10. Use a variable as a key using computed properties
+ 
+//   let subject = "physics";
+//   let marks = 89;
+
+//   let obj = {
+//     name : "ali",
+//     [subject ] : marks
+//   }
+
+//   console.log(obj);
